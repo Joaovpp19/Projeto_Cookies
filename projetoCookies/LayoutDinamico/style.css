@@ -1,0 +1,38 @@
+/* Modo Claro */
+.light-mode {
+  background-color: #f8f2f2; /* cor de fundo - branco */
+  color: #555; /* cor referente ao texto - preto */
+}
+/* Modo Escuro */
+.dark-mode {
+  background-color: #555; /* cor de fundo - preta */
+  color: #f8f2f2; /* cor referente ao texto - branca */
+}
+/* estilo dos botões do Modo Claro e Escuro */
+.dark-mode-button,
+.light-mode-button {
+  padding: 10px 20px; /* tamanho dos botões */
+}
+/* manter as escritas no formulário no modo escuro */
+.form-label {
+  color: #000; /* cor referente ao texto - preta */
+}
+.form-control {
+  background-color: #ffffff; /* cor de fundo - branca */
+  color: #000; /* cor referente ao texto - preta */
+}
+/* manter os titulos na tela no modo escuro */
+.custom-heading {
+  color: #000; /* cor referente ao texto - preto */
+}
+.custom-paragraph {
+  color: #000; /* cor referente ao texto - preto */
+}
+/* barra azul inicial permanece azul no Modo Claro */
+.custom-navbar {
+  background-color: blue;
+}
+/* barra azul muda a cor no Modo Escuro */
+.dark-mode .custom-navbar {
+  background-color: #333;
+}
